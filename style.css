@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  padding: 135px;
+  font-family: 'Press Start 2P', cursive;
+}
+#site-title{
+  width: 665px;
+}
+.site-title-container{
+  width: 665px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+}
+#title-text{
+  width: 360px;
+  position: relative;
+  z-index: 99;
+  top: -330px;
+}
+#title-text h1{
+  font-size: 20px;
+}
+#byline{
+  margin-bottom: 20px;
+}
+#byline a{
+  color: #44BFFE;
+}
+.videos-container{
+  width: 665px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+}
+#video1{
+  width: 380px;
+}
+#video2{
+  width: 265px;
+}
+#video3{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
