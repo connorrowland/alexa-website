@@ -1,7 +1,18 @@
 body{
   margin: 0;
   padding: 135px;
+}
+h1{
   font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+}
+p{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 18px;
 }
 #site-title{
   width: 665px;
@@ -19,9 +30,6 @@ body{
   position: relative;
   z-index: 99;
   top: -330px;
-}
-#title-text h1{
-  font-size: 20px;
 }
 #byline{
   margin-bottom: 20px;
@@ -43,10 +51,19 @@ body{
 }
 #video2{
   width: 265px;
+  background: url('./alexa-poster-2.png');
+  background-size: 100%;
 }
 #video3{
-  width: 350px;
+  width: 338px;
   margin-left: auto;
   margin-right: auto;
+  align-self: flex-start;
   margin-top: 20px;
+  background: url('./alexa-poster-3.png');
+  background-size: 100%;
+}
+#project-description{
+  width: 285px;
+  align-self: flex-start;
 }
