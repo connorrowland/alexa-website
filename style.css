@@ -48,6 +48,8 @@ p{
 }
 #video1{
   width: 380px;
+  background: url('./alexa-poster-1.png');
+  background-size: 100%;
 }
 #video2{
   width: 265px;
