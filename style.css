@@ -2,6 +2,11 @@ body{
   margin: 0;
   padding: 135px;
 }
+@media only screen and (max-width:650px) {
+  body{
+    padding: 0;
+  }
+}
 h1{
   font-family: 'Press Start 2P', cursive;
   font-size: 20px;
@@ -17,6 +22,11 @@ p{
 #site-title{
   width: 665px;
 }
+@media only screen and (max-width:650px) {
+  #site-title{
+    width: 100%;
+  }
+}
 .site-title-container{
   width: 665px;
   height: 700px;
@@ -25,11 +35,22 @@ p{
   position: relative;
   z-index: 1;
 }
+@media only screen and (max-width:650px) {
+  .site-title-container{
+    width: 95%;
+  }
+}
 #title-text{
   width: 360px;
   position: relative;
   z-index: 99;
   top: -330px;
+}
+@media only screen and (max-width:650px) {
+  #title-text{
+    width: 275px;
+    top: -175px;
+  }
 }
 #byline{
   margin-bottom: 20px;
@@ -45,6 +66,14 @@ p{
   align-items: flex-end;
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (max-width:650px) {
+  .videos-container{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 #video1{
   width: 380px;
@@ -65,9 +94,21 @@ p{
   background: url('./alexa-poster-3.png');
   background-size: 100%;
 }
+@media only screen and (max-width:650px) {
+  #video1, #video2, #video3{
+    width: 100%;
+  }
+}
 #project-description{
   width: 285px;
   align-self: flex-start;
   margin-left: 10px;
   margin-top: 10px;
+}
+@media only screen and (max-width:650px) {
+  #project-description{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
